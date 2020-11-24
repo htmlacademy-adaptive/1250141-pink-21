@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local("Open Sans Regular"), url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: local("Open Sans Bold"), url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: local("Open Sans Light"), url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff"); }
+
+.page-body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.page-header {
+  background-color: #283645; }
+
+.main-nav {
+  display: block;
+  min-height: 200px; }
+
+.main-nav__list {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0; }
+
+.main-nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  background-color: #283645;
+  min-height: 62px;
+  border-top: 1px solid #485461;
+  border-bottom: 1px solid #000001;
+  text-transform: uppercase; }
+
+.main-nav__item {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.application__wrapper {
+  background-color: #283645; }
+
+.application__header {
+  display: block;
+  margin: 0 auto;
+  padding-top: 29px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff; }
+
+.application__download {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  min-height: 55px;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 29px;
+  background-color: #283645;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff; }
+
+.application__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around; }
+
+.application__description {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px; }
+
+.propositions__background-top {
+  min-height: 250px;
+  background-color: #ffffff; }
+
+.propositions__header {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  margin-top: 46px;
+  margin-bottom: 70px; }
+
+.propositions__background-bottom {
+  min-height: 485px;
+  background-color: #f2f2f2;
+  padding-top: 53px; }
+
+.propositions__list {
+  margin: 0 auto;
+  list-style: none; }
+
+.propositions__tagline {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px; }
+
+.propositions__description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px; }
+
+.effect {
+  display: none; }
+
+.reviews__list {
+  margin: 0;
+  list-style: none; }
+
+.reviews__author-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px; }
+
+.reviews__author-about {
+  display: none; }
+
+.reviews__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px; }
+
+.prices {
+  background-color: #f2f2f2; }
+
+.prices__table {
+  border-collapse: collapse; }
+
+.prices__table td {
+  min-width: 152px;
+  min-height: 45px;
+  border: 2px solid #E5E5E5; }
+
+.prices__th {
+  background: .prices__th basic-color; }
+
+.prices__type {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px; }
+
+.prices__usd {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px; }
+
+.contacts__header {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%; }
+
+.contacts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.contacts__type {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px; }
+
+.contacts__description {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px; }
+
+.social__list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.page-footer__copyright {
+  display: flex; }
+
+/*# sourceMappingURL=style.css.map */
