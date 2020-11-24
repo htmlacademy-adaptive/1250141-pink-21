@@ -2,9 +2,11 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="page__body">
+  <body class="page-body">
     <header class="page-header">
       <a class="page-header__logo">
         <img src="https://via.placeholder.com/226x30" width="226" height="30" alt="Приложение «Pink»">
@@ -14,22 +16,22 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
-              <a>
+              <a class="main-nav__link">
                 Главная
               </a>
             </li>
             <li class="site-list__item">
-              <a href="catalog.html">
+              <a class="main-nav__link" href="catalog.html">
                 Фотографии
               </a>
             </li>
             <li class="site-list__item">
-              <a href="form.html">
+              <a class="main-nav__link" href="form.html">
                 Конкурс
               </a>
             </li>
             <li class="site-list__item">
-              <a href="#">
+              <a class="main-nav__link" href="#">
                 HTML Academy
               </a>
             </li>
@@ -60,24 +62,28 @@
 
       <section class="propositions">
         <div class="propositions__wrapper">
-          <h2 class="propositions__header">
-            Устали от серости мегаполиса? </br>
-            Нам есть, что вам предложить!
-          </h2>
-          <dl class="propositions__list">
-            <div class="propositions__item">
-              <dt class="propositions__tagline">Поднимает настроение</dt>
-              <dd class="propositions__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</dd>
-            </div>
-            <div class="propositions__item">
-              <dt class="propositions__tagline">Меняет мир вокруг</dt>
-              <dd class="propositions__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</dd>
-            </div>
-            <div class="propositions__item">
-              <dt class="propositions__tagline">Заводит новых друзей</dt>
-              <dd class="propositions__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</dd>
-            </div>
-          </dl>
+          <div class="propositions__background-top">
+            <h2 class="propositions__header">
+              Устали от серости мегаполиса? </br class="br-switch"></br class="br-switch">
+              Нам есть, что вам предложить!
+            </h2>
+          </div>
+          <div class="propositions__background-bottom">
+            <dl class="propositions__list">
+              <div class="propositions__item">
+                <dt class="propositions__tagline">Поднимает настроение</dt>
+                <dd class="propositions__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</dd>
+              </div>
+              <div class="propositions__item">
+                <dt class="propositions__tagline">Меняет мир вокруг</dt>
+                <dd class="propositions__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</dd>
+              </div>
+              <div class="propositions__item">
+                <dt class="propositions__tagline">Заводит новых друзей</dt>
+                <dd class="propositions__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</dd>
+              </div>
+            </dl>
+          </div>
         </div>
       </section>
 
@@ -92,7 +98,7 @@
 
       <section class="reviews">
         <div class="reviews__wrapper slider">
-          <h2 class="reviews__title">Отзывы о приложении</h2>
+          <h2 class="reviews__title visually-hidden">Отзывы о приложении</h2>
           <img src="https://via.placeholder.com/79x63" width="79" height="63" alt="">
           <div class="reviews__list slider__list">
             <blockquote class="reviews__item slider__item">
@@ -132,9 +138,10 @@
           <h2 class="visually-hidden">Стоимость приложения</h2>
           <div class="prices__list slider__list">
             <table class="prices__table">
-              <th>
-                <td></td>
+              <tr>
                 <td>
+                </td>
+                <td class="prices__th">
                   <p class="prices__type">
                     База
                   </p>
@@ -142,7 +149,7 @@
                     1,99 usd
                   </p>
                 </td>
-                <td>
+                <td class="prices__th">
                   <p class="prices__type">
                     Стандарт
                   </p>
@@ -150,7 +157,7 @@
                     3,99 usd
                   </p>
                 </td>
-                <td>
+                <td class="prices__th">
                   <p class="prices__type">
                     Анлим
                   </p>
@@ -158,7 +165,7 @@
                     9,99 usd
                   </p>
                 </td>
-              </th>
+              </tr>
               <tr>
                 <td class="prices__name">Розовый фильтр</td>
                 <td></td>
@@ -218,7 +225,7 @@
           <img src="https://via.placeholder.com/145x40" width="`145`" height="40">
         </div>
         <div class="page-footer__social social">
-          <b class="social__title">Давайте дружить!</b>
+          <b class="social__title visually-hidden">Давайте дружить!</b>
           <ul class="social__list">
             <li class="social__item">
               <a class="social__link social__link--twitter" href="">Мы в Твиттере</a>
