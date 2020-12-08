@@ -1,16 +1,15 @@
 @import "fonts.scss";
 @import "variables.scss";
-
-@import "page-body.scss";
-@import "page-header.scss";
-@import "main-nav.scss";
-@import "page-main.scss";
-@import "application.scss";
-@import "propositions.scss";
-@import "effect.scss";
-@import "reviews.scss";
-@import "prices.scss";
-@import "contacts.scss";
-@import "page-footer.scss";
-
-@import "form.scss"
+@import "blocks/page-body.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/page-main.scss";
+@import "blocks/application.scss";
+@import "blocks/propositions.scss";
+@import "blocks/effect.scss";
+@import "blocks/reviews.scss";
+@import "blocks/prices.scss";
+@import "blocks/contacts.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/page-form.scss";
+@import "blocks/form.scss"
