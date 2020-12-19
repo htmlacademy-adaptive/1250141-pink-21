@@ -1,0 +1,53 @@
+.logo {
+  width: auto;
+
+  fill: $white;
+
+  &:hover[href],
+  &:focus[href] {
+    fill: $pink;
+  }
+
+  &:active[href] {
+    fill: $white;
+    opacity: 0.5;
+  }
+}
+
+.logo__img-mobile {
+  width: 75px;
+  height: 22px;
+}
+
+.logo__img-tablet,
+.logo__img-desktop {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .logo__img-tablet {
+    display: block;
+
+    width: 147px;
+    height: 40px;
+  }
+
+  .logo__img-mobile,
+  .logo__img-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo__img-desktop {
+    display: block;
+
+    width: 147px;
+    height: 40px;
+  }
+
+  .logo__img-mobile,
+  .logo__img-tablet {
+    display: none;
+  }
+}

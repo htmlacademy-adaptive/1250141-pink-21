@@ -1,0 +1,24 @@
+.prices {
+  background: linear-gradient(-4deg, $lightgrey 84%, $white 10%);
+
+  width: 100%;
+}
+
+.prices__wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (min-width: $tablet-width) {
+  .prices {
+    background: linear-gradient(-5deg, $lightgrey 83%, $white 10%);
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .prices {
+    background: linear-gradient(-5deg, $lightgrey 81%, $white 10%);
+  }
+}

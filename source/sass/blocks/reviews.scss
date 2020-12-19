@@ -1,0 +1,39 @@
+.reviews {
+  background-color: $white;
+
+  width: 100%;
+}
+
+.reviews__icon-quotes {
+  display: none;
+}
+
+.reviews__slider {
+  width: 100%;
+}
+
+@media (min-width: $desktop-width) {
+  .reviews {
+    text-align: center;
+  }
+
+  .reviews__slider {
+    position: relative;
+
+    padding-top: 98px;
+
+    &::before {
+      content: "";
+      position: absolute;
+
+      top: 0;
+      left: calc(50% - 37px);
+      width: 79px;
+      height: 64px;
+
+      background-image: url("../img/icon-quotes.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
