@@ -1,0 +1,266 @@
+.page-main {
+  width: 100%;
+
+  margin: 0;
+  margin-top: -66px;
+  padding: 0;
+  padding-top: 66px;
+
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: $white;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/bg-back-mobile@2x.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.page-main--index {
+  background-image: url("../img/iphone-hand-mobile@1x.png"), url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center 206px, top center;
+  background-size: 286px, contain;
+
+  margin: 0;
+  margin-top: -66px;
+  padding: 0;
+  padding-top: 66px;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/iphone-hand-mobile@2x.png"), url("../img/bg-back-mobile@2x.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center 176px left, top center;
+    background-size: 286px, contain;
+  }
+}
+
+.page-main__title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  color: $white;
+  text-align: center;
+
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 31px;
+  padding-bottom: 80px;
+
+  &--index {
+    width: 230px;
+
+    padding-top: 22px;
+    padding-bottom: 35px;
+  }
+
+  &--form {
+    padding-top: 29px;
+    padding-bottom: 52px;
+  }
+}
+
+// ----- index.html
+.page-main__application {
+  margin-top: 279px;
+}
+
+.page-main__propositions {
+  padding-top: 41px;
+}
+
+.page-main__reviews {
+  margin: 0;
+  padding-top: 42px;
+}
+
+.page-main__prices {
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+.page-main__feedback {
+  padding-top: 42px;
+}
+
+// ----- catalog.html
+.page-main__gallery {
+  margin: 0;
+  padding: 0;
+}
+
+.page-main__upload {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+// ----- form.html
+.page-main__profile {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .page-main {
+    margin-top: -110px;
+    padding-top: 110px;
+
+    background-position: top center;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-size: auto 728px;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-back-tablet@2x.jpg");
+      background-position: top center;
+    }
+  }
+
+  .page-main--index {
+    margin-top: -111px;
+    padding-top: 111px;
+
+    background-image: url("../img/iphone-hand-tablet@1x.png"), url("../img/bg-back-tablet@1x.jpg");
+    background-position: center 184px, top center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 700px auto, auto 728px;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/iphone-hand-tablet@2x.png"), url("../img/bg-back-tablet@2x.jpg");
+    }
+  }
+
+  .page-main__title {
+    font-size: 50px;
+
+    &--index {
+      font-size: 40px;
+      line-height: 47px;
+
+      margin-left: 34px;
+      padding-top: 94px;
+      padding-bottom: 32px;
+    }
+
+    &--photo {
+      line-height: 60px;
+      padding-top: 70px;
+      padding-bottom: 139px;
+    }
+
+    &--form {
+      padding-top: 69px;
+      padding-bottom: 80px;
+
+      line-height: 60px;
+    }
+  }
+
+  .page-main__application {
+    margin-top: 0;
+    margin-bottom: 108px;
+    padding-right: 325px;
+  }
+
+  .page-main__propositions {
+    padding-top: 21px;
+  }
+
+  .page-main__reviews {
+    padding-top: 81px;
+  }
+
+  .page-main__prices {
+    padding-top: 110px;
+    padding-bottom: 70px;
+  }
+
+  .page-main__feedback {
+    padding-top: 48px;
+  }
+
+  .page-main__upload {
+    padding-top: 51px;
+    padding-bottom: 43px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main {
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+    background-position: top center;
+  }
+
+  .page-main--index {
+    background-image: url("../img/iphone-hand-desktop@1x.png"), url("../img/bg-back-desktop@1x.jpg");
+    background-position: calc(50% - -71px) 209px, top center;
+    background-size: 1050px auto, auto 854px;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/iphone-hand-desktop@2x.png"), url("../img/bg-back-desktop@2x.jpg");
+    }
+
+    @media (min-width: 1200px) {
+      background-position: calc(50% - -71px) 209px, top center;
+    }
+  }
+
+  .page-main__title {
+    &--index {
+      font-size: 50px;
+      line-height: 60px;
+
+      width: 270px;
+
+      padding-top: 110px;
+      padding-bottom: 50px;
+      margin-left: 14px;
+    }
+
+    &--photo {
+      width: 365px;
+
+      padding-top: 63px;
+      padding-bottom: 101px;
+    }
+
+    &--form {
+      width: 750px;
+      padding-top: 63px;
+      padding-bottom: 101px;
+    }
+  }
+
+  .page-main__application {
+    margin-bottom: 92px;
+    padding-right: 647px;
+  }
+
+  .page-main__propositions {
+    padding-top: 74px;
+    padding-bottom: 67px;
+  }
+
+  .page-main__reviews {
+    padding-top: 69px;
+  }
+
+  .page-main__prices {
+    padding-top: 190px;
+    padding-bottom: 97px;
+  }
+
+  .page-main__feedback {
+    padding-top: 65px;
+  }
+
+  .page-main__upload {
+    margin: 0 auto;
+    margin-bottom: 28px;
+    padding-top: 41px;
+    padding-bottom: 57px;
+  }
+}

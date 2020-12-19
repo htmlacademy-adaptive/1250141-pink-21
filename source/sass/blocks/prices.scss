@@ -1,45 +1,24 @@
 .prices {
-  background-color: $basic-background;
+  background: linear-gradient(-4deg, $lightgrey 84%, $white 10%);
+
+  width: 100%;
 }
 
-.prices__wrapper {
-
+.prices__wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
 }
 
-.prices__list {
-
+@media (min-width: $tablet-width) {
+  .prices {
+    background: linear-gradient(-5deg, $lightgrey 83%, $white 10%);
+  }
 }
 
-.prices__table {
-  border-collapse: collapse;
-}
-
-.prices__table td {
-  min-width: 152px;
-  min-height: 45px;
-  border: 2px solid #E5E5E5;
-}
-
-.prices__th {
-  background: &basic-color;
-}
-
-.prices__type {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.prices__usd {
-  margin: 0;
-  padding: 0;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.prices__name {
-
+@media (min-width: $desktop-width) {
+  .prices {
+    background: linear-gradient(-5deg, $lightgrey 81%, $white 10%);
+  }
 }

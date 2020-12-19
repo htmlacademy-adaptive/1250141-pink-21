@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 16px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  color: $white;
+
+  border: 3px solid #ffffff;
+  border-radius: 35px;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.button--green {
+  &:hover {
+    background-color: $darkgreen;
+  }
+
+  &:active {
+    color: rgba($white, 0.3);
+    background-color: $darkgreen;
+  }
+}

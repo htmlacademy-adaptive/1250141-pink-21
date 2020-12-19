@@ -1,51 +1,99 @@
+.application {
+  width: 100%;
+
+  background-color: $darkblue;
+}
+
 .application__wrapper {
-  background-color: $basic-color;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: inherit;
-  text-align: center;
   align-items: center;
 }
 
-.application__slogan {
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 120%;
-  color: #ffffff;
-  margin: 0 auto;
-}
-
-.download-attachment__slogan-br {
-  display: none;
-}
-
 .application__download {
-  display: block;
-  margin: 0 auto;
-  width: 280px;
-  min-height: 55px;
-  border: 3px solid #ffffff;
-  box-sizing: border-box;
-  border-radius: 29px;
-  background-color: $basic-color;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 700;
-  color: #ffffff;
+  margin-top: 28px;
+
+  &:hover {
+    color: $pink;
+    background-color: $white;
+  }
+
+  &:active {
+    color: rgba($pink, 0.3);
+  }
 }
 
 .application__list {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  width: 205px;
+
   margin: 0;
   padding: 0;
+  padding-top: 32px;
+
   list-style: none;
-  display: flex;
-  justify-content: space-around;
 }
 
-.application__description {
-  color: #ffffff;
-  font-weight: 300;
+.application__desc {
+  margin: 0;
+  padding-top: 17px;
+  padding-bottom: 29px;
+
   font-size: 14px;
+  font-weight: 300;
   line-height: 24px;
+  color: $white;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .application {
+    background-color: transparent;
+  }
+
+  .application__wrapper {
+    padding: 0;
+  }
+
+  .application__download {
+    margin-top: 0;
+    padding: 15px 43px;
+  }
+
+  .application__list {
+    padding-top: 46px;
+  }
+
+  .application__desc {
+    width: 300px;
+
+    margin: 0;
+    padding-top: 32px;
+
+    font-size: 18px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .application__download {
+    margin-left: 6px;
+    padding-top: 15px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 17px;
+
+    font-size: 21px;
+  }
+
+  .application__list {
+    padding-top: 66px;
+  }
+
+  .application__desc {
+    padding-top: 51px;
+  }
 }
