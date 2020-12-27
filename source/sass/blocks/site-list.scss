@@ -41,9 +41,14 @@
     width: auto;
 
     box-shadow: none;
+    letter-spacing: 0.3px;
 
     &:first-of-type {
       box-shadow: none;
+    }
+
+    &:last-of-type {
+      letter-spacing: 0.1px;
     }
   }
 
