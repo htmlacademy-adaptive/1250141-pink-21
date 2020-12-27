@@ -1,0 +1,159 @@
+.modal {
+  display: none;
+
+  width: 320px;
+
+  text-align: center;
+  box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
+  background-color: $white;
+
+  &--active {
+    display: block;
+  }
+}
+
+.modal__title {
+  margin-top: 0;
+  padding-top: 46px;
+  padding-right: 22px;
+  padding-left: 22px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.modal__text {
+  margin-bottom: 37px;
+  padding-right: 22px;
+  padding-left: 22px;
+
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 24px;
+  color: $blue;
+
+  &--send {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
+.modal__wrapper {
+  padding: 0 22px;
+  padding-top: 50px;
+  padding-bottom: 54px;
+
+  background-color: $lightgrey;
+
+  &--error {
+    padding-top: 5px;
+    background-color: $white;
+  }
+}
+
+.modal__button {
+  width: 100%;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: $white;
+  text-transform: uppercase;
+  background-color: $green;
+  border: none;
+  border-radius: 2px;
+}
+
+.modal__newline {
+  display: block;
+
+  &--error {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .modal {
+    width: 460px;
+  }
+
+  .modal__title {
+    font-size: 30px;
+    line-height: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+
+  .modal__text {
+    padding-right: 75px;
+    padding-left: 75px;
+
+    font-size: 18px;
+    line-height: 24px;
+
+    &--error {
+      padding-right: 80px;
+      padding-left: 80px;
+    }
+  }
+
+  .modal__newline {
+    display: none;
+
+    &--error {
+      display: block;
+    }
+  }
+
+  .modal__wrapper {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .modal {
+    width: 780px;
+  }
+
+  .modal__title {
+    margin: 0;
+    padding-right: 192px;
+    padding-left: 192px;
+  }
+
+  .modal__text {
+    padding-right: 215px;
+    padding-left: 215px;
+
+    &--error {
+      margin-bottom: 60px;
+    }
+
+    &--send {
+      padding-right: 190px;
+      padding-left: 190px;
+    }
+  }
+
+  .modal__newline {
+    &--error {
+      display: none;
+    }
+  }
+
+  .modal__wrapper {
+    padding-right: 160px;
+    padding-left: 160px;
+
+    &--error {
+      padding-top: 50px;
+      padding-right: 230px;
+      padding-left: 230px;
+      background-color: $lightgrey;
+    }
+  }
+}
