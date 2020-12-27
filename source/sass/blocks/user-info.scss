@@ -175,7 +175,7 @@
 
   .user-info__label {
     padding-top: 2px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .user-info__label--phone {
@@ -197,7 +197,6 @@
   }
 
   .user-info__input {
-
     &--phone {
       width: 375px;
 
