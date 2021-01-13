@@ -66,6 +66,7 @@
   .effect__text {
     margin: 0;
     margin-bottom: 15px;
+    padding-top: 2px;
 
     font-size: 14px;
     font-weight: 400;
@@ -75,6 +76,10 @@
 
   .effect__newline {
     display: block;
+  }
+
+  .effect__newline--transfer {
+    display: none;
   }
 
   .effect__link {
@@ -122,11 +127,13 @@
     width: 100%;
 
     margin: 0;
+    margin-left: 4px;
     margin-top: 46px;
   }
 
   .effect__text {
     margin-top: 22px;
+    margin-left: 4px;
     margin-bottom: 0;
 
     font-size: 18px;
@@ -135,6 +142,7 @@
 
   .effect__link {
     margin-top: 30px;
+    margin-left: 4px;
 
     font-size: 18px;
     line-height: 30px;

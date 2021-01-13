@@ -32,7 +32,7 @@
     width: 100%;
     height: 35px;
 
-    background-image: url("../img/bg-triangle-white-footer-1.svg");
+    background-image: url("../img/bg-triangle-white-footer.svg");
     background-position: bottom center;
     background-repeat: no-repeat;
 
@@ -95,6 +95,7 @@
     &::before {
       height: 115px;
       background-size: 120% 125px;
+      background-image: url("../img/bg-triangle-white-footer-1.svg");
     }
   }
 

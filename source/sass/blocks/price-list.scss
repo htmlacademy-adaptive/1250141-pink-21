@@ -6,14 +6,15 @@
   color: $blue;
   border-collapse: collapse;
   border-spacing: 0;
+  margin-bottom: 6px;
 }
 
 .price-list__header {
   min-width: 279px;
   max-height: 94px;
 
-  padding-top: 18px;
-  padding-bottom: 23px;
+  padding-top: 16px;
+  padding-bottom: 29px;
 
   color: $white;
   background-color: $blue;
@@ -24,8 +25,8 @@
   margin: 0;
   padding: 0;
 
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 23px;
   text-transform: uppercase;
 }
 
@@ -33,7 +34,7 @@
   margin: 0;
   padding: 0;
 
-  font-size: 24px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 300;
   text-transform: uppercase;
@@ -61,7 +62,7 @@
     width: 74px;
     height: 73px;
 
-    background-image: url("../img/bg-hit.svg");
+    background-image: url("../img/bg-hit-mobile.svg");
     background-repeat: no-repeat;
     background-size: 74px 73px;
   }
@@ -69,8 +70,8 @@
   &::after {
     content: "хит";
     position: absolute;
-    top: 20px;
-    left: 9px;
+    top: 24px;
+    left: 11px;
 
     height: 10px;
     width: 28px;
@@ -78,6 +79,7 @@
     font-size: 14px;
     line-height: 14px;
     text-align: center;
+    font-weight: normal;
     vertical-align: center;
     text-transform: uppercase;
     color: $white;
@@ -90,7 +92,7 @@
 .price-list__option {
   padding-top: 10px;
   padding-right: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
   padding-left: 22px;
 
   font-size: 14px;
@@ -139,13 +141,13 @@
   &::before {
     content: "";
     position: absolute;
-    top: 8px;
+    top: 10px;
     right: 0;
 
-    min-width: 26px;
-    max-width: 27px;
-    min-height: 14px;
-    max-height: 15px;
+    min-width: 28px;
+    max-width: 29px;
+    min-height: 15px;
+    max-height: 16px;
 
     background-color: transparent;
     border: none;
@@ -180,6 +182,7 @@
 @media (min-width: $tablet-width) {
   .price-list {
     width: 620px;
+    margin-bottom: 0;
   }
 
   .price-list__header {
@@ -196,13 +199,13 @@
       width: 61px;
       height: 61px;
 
-      background-image: url("../img/bg-hit-tablet.svg");
-      background-size: 61px 61px;
+      background-image: url("../img/bg-hit-mobile.svg");
+      background-size: 55px 55px;
     }
 
     &::after {
-      top: 15px;
-      left: 4px;
+      top: 16px;
+      left: 5px;
     }
   }
 

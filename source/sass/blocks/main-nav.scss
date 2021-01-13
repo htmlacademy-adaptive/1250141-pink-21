@@ -27,8 +27,8 @@
   cursor: pointer;
 }
 
-.main-nav__burger,
 .main-nav__cross {
+  display: none;
   fill: $white;
 
   &:hover,
