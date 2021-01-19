@@ -14,7 +14,7 @@
   }
 }
 
-.logo__img-mobile {
+.logo__img {
   width: 75px;
   height: 22px;
 }
@@ -25,6 +25,11 @@
 }
 
 @media (min-width: $tablet-width) {
+  .logo__img {
+    width: 147px;
+    height: 40px;
+  }
+
   .logo__img-tablet {
     display: block;
 

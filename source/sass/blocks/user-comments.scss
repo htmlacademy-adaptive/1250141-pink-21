@@ -32,15 +32,21 @@
   padding-right: 19px;
   padding-bottom: 32px;
 
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 30px;
   border: 2px solid $grey-light;
+  border-radius: 5px;
 
   resize: none;
 
   &::placeholder {
     color: $blue;
+    word-spacing: -4px;
+    letter-spacing: -0.8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
   }
 
   &:hover {
