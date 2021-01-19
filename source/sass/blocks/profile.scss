@@ -254,7 +254,7 @@
     width: auto;
 
     &--checkbox {
-      padding: 0 32px;
+      padding: 2px 32px 0;
     }
 
     &--contacts {
@@ -278,7 +278,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    padding-bottom: 50px;
+    padding-bottom: 46px;
   }
 
   .profile__button {
@@ -324,7 +324,7 @@
     &--user {
       order: 1;
 
-      flex-basis: 47%;
+      flex-basis: 47.5%;
 
       padding-top: 13px;
     }
@@ -382,6 +382,7 @@
 
   .profile__wrapper-btn {
     padding-bottom: 0;
+    margin-bottom: -4px;
   }
 
   .profile__important {

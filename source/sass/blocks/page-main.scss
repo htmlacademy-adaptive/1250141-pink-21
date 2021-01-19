@@ -23,8 +23,8 @@
 .page-main--index {
   background-image: url("../img/iphone-hand-mobile@1x.png"), url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat, no-repeat;
-  background-position: center 206px, top center;
-  background-size: 286px, contain;
+  background-position: center 176px, top center;
+  background-size: 320px, contain;
 
   margin: 0;
   margin-top: -66px;
@@ -42,7 +42,7 @@
 .page-main__title {
   font-size: 24px;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 29px;
   color: $white;
   text-align: center;
 
@@ -60,7 +60,7 @@
 
   &--form {
     padding-top: 29px;
-    padding-bottom: 52px;
+    padding-bottom: 43px;
   }
 }
 
@@ -126,7 +126,7 @@
     background-image: url("../img/iphone-hand-tablet@1x.png"), url("../img/bg-back-tablet@1x.jpg");
     background-position: center 184px, top center;
     background-repeat: no-repeat, no-repeat;
-    background-size: 700px auto, auto 728px;
+    background-size: 660px auto, auto 728px;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/iphone-hand-tablet@2x.png"), url("../img/bg-back-tablet@2x.jpg");
@@ -152,16 +152,16 @@
     }
 
     &--form {
-      padding-top: 69px;
-      padding-bottom: 80px;
+      padding-top: 66px;
+      padding-bottom: 59px;
 
-      line-height: 60px;
+      line-height: 68px;
     }
   }
 
   .page-main__application {
     margin-top: 0;
-    margin-bottom: 108px;
+    margin-bottom: 113px;
     padding-right: 325px;
   }
 
@@ -211,13 +211,13 @@
   .page-main__title {
     &--index {
       font-size: 50px;
-      line-height: 60px;
+      line-height: 68px;
 
       width: 270px;
 
-      padding-top: 110px;
-      padding-bottom: 50px;
-      margin-left: 14px;
+      padding-top: 100px;
+      padding-bottom: 35px;
+      margin-left: 15px;
     }
 
     &--photo {
@@ -230,8 +230,8 @@
 
     &--form {
       width: 750px;
-      padding-top: 63px;
-      padding-bottom: 101px;
+      padding-top: 60px;
+      padding-bottom: 88px;
     }
   }
 

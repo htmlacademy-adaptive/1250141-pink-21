@@ -1,5 +1,5 @@
 .propositions {
-  background: linear-gradient(-6deg, $lightgrey 76%, $white 24%);
+  background: linear-gradient(-6deg, $lightgrey 75%, $white 25%);
   text-align: center;
 
   width: 100%;
@@ -81,7 +81,7 @@
   .propositions__title,
   .propositions__subject {
     font-size: 40px;
-    line-height: 50px;
+    line-height: 54px;
   }
 
   .propositions__title {
@@ -99,7 +99,7 @@
     flex-direction: column;
     align-items: flex-end;
 
-    padding-top: 72px;
+    padding-top: 60px;
 
     &::after {
       content: "";
@@ -135,7 +135,7 @@
   }
 
   .propositions__subtitle {
-    margin-top: 19px;
+    margin-top: 18px;
   }
 
   .propositions__newline {
@@ -151,13 +151,17 @@
 
 @media (min-width: $desktop-width) {
   .propositions {
-    background: linear-gradient(-5deg, $lightgrey 69%, $white 24%);
+    background: linear-gradient(-4.5deg, $lightgrey 71.5%, $white 25%);
   }
 
   .propositions__title,
   .propositions__subject {
     font-size: 50px;
-    line-height: 57px;
+    line-height: 68px;
+  }
+
+  .propositions__title {
+    margin-top: -10px;
   }
 
   .propositions__subject {
@@ -169,7 +173,7 @@
     justify-content: space-around;
     align-items: flex-start;
 
-    padding-top: 56px;
+    padding-top: 29px;
 
     &::after {
       display: none;
@@ -182,7 +186,7 @@
     width: 240px;
 
     padding: 0;
-    padding-top: 340px;
+    padding-top: 342px;
 
     text-align: center;
 
@@ -219,6 +223,7 @@
     }
 
     &:nth-child(2)::before {
+      left: 5px;
       background-image: url("../img/iphone-screen-2-desktop@1x.png");
 
       @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -228,6 +233,7 @@
     }
 
     &:nth-child(3)::before {
+      left: 9px;
       background-image: url("../img/iphone-screen-3-desktop@1x.png");
 
       @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {

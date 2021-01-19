@@ -42,7 +42,7 @@
 }
 
 .filter-input__label--checkbox {
-  padding-left: 70px;
+  padding-left: 60px;
 
   &::before {
     content: "";
@@ -73,7 +73,7 @@
     content: "";
     position: absolute;
     bottom: 50%;
-    left: 1px;
+    left: 4px;
 
     width: 35px;
     height: 35px;
@@ -150,6 +150,15 @@
 
   .filter-input__label--checkbox {
     padding-left: 58px;
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      bottom: 50%;
+      left: 1px;
+    }
   }
 
   .filter-input__label--radio {
@@ -204,6 +213,19 @@
 
   .filter-input__label {
     padding-left: 60px;
+  }
+
+  .filter-input__label--checkbox {
+    padding-left: 58px;
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      bottom: 50%;
+      left: 1px;
+    }
   }
 
   .filter-input__label--radio {
