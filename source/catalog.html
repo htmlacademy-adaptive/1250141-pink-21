@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Пинк</title>
+    <link rel="preload" type="font/woff2" href="fonts/opensans.woff2" as="font" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body class="page-body">
@@ -114,6 +115,9 @@
             <a class="photo-list__link" href="">
               <span class="photo-list__ticket">Панорама дня</span>
               <picture class="photo-list__picture">
+                <source type="image/webp" media="(min-width: 960px)" srcset="img/panorama-desktop@1x.webp, img/panorama-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 660px)" srcset="img/panorama-tablet@1x.webp, img/panorama-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/panorama-mobile@1x.webp, img/panorama-mobile@2x.webp 2x">
                 <source media="(min-width: 960px)" srcset="img/panorama-desktop@1x.jpg, img/panorama-desktop@2x.jpg 2x">
                 <source media="(min-width: 660px)" srcset="img/panorama-tablet@1x.jpg, img/panorama-tablet@2x.jpg 2x">
                 <img class="photo-list__img photo-list__img--panorama" src="img/panorama-mobile@1x.jpg" srcset="img/panorama-mobile@2x.jpg 2x" alt="Панорама дня от Анны" width="320" height="137">
@@ -134,6 +138,9 @@
               <figure class="photo-list">
                 <a class="photo-list__link" href="">
                   <picture class="photo-list__picture">
+                    <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-car-desktop@1x.webp, img/photo-car-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 660px)" srcset="img/photo-car-tablet@1x.webp, img/photo-car-tablet@2x.webp 2x">
+                    <source type="image/webp" srcset="img/photo-car-mobile@1x.webp, img/photo-car-mobile@2x.webp 2x">
                     <source media="(min-width: 960px)" srcset="img/photo-car-desktop@1x.jpg, img/photo-car-desktop@2x.jpg 2x">
                     <source media="(min-width: 660px)" srcset="img/photo-car-tablet@1x.jpg, img/photo-car-tablet@2x.jpg 2x">
                     <img class="photo-list__img" src="img/photo-car-mobile@1x.jpg" srcset="img/photo-car-mobile@2x.jpg 2x" alt="Фото от Левона" width="280" height="180">
@@ -152,6 +159,9 @@
               <figure class="photo-list">
                 <a class="photo-list__link" href="">
                   <picture class="photo-list__picture">
+                    <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-drumset-desktop@1x.webp, img/photo-drumset-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 660px)" srcset="img/photo-drumset-tablet@1x.webp, img/photo-drumset-tablet@2x.webp 2x">
+                    <source type="image/webp" srcset="img/photo-drumset-mobile@1x.webp, img/photo-drumset-mobile@2x.webp 2x">
                     <source media="(min-width: 960px)" srcset="img/photo-drumset-desktop@1x.jpg, img/photo-drumset-desktop@2x.jpg 2x">
                     <source media="(min-width: 660px)" srcset="img/photo-drumset-tablet@1x.jpg, img/photo-drumset-tablet@2x.jpg 2x">
                     <img class="photo-list__img" src="img/photo-drumset-mobile@1x.jpg" srcset="img/photo-drumset-mobile@2x.jpg 2x" alt="Фото от Антона" width="280" height="180">
@@ -170,6 +180,9 @@
               <figure class="photo-list">
                 <a class="photo-list__link" href="">
                   <picture class="photo-list__picture">
+                    <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-window-desktop@1x.webp, img/photo-window-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 660px)" srcset="img/photo-window-tablet@1x.webp, img/photo-window-tablet@2x.webp 2x">
+                    <source type="image/webp" srcset="img/photo-window-mobile@1x.webp, img/photo-window-mobile@2x.webp 2x">
                     <source media="(min-width: 960px)" srcset="img/photo-window-desktop@1x.jpg, img/photo-window-desktop@2x.jpg 2x">
                     <source media="(min-width: 660px)" srcset="img/photo-window-tablet@1x.jpg, img/photo-window-tablet@2x.jpg 2x">
                     <img class="photo-list__img" src="img/photo-window-mobile@1x.jpg" srcset="img/photo-window-mobile@2x.jpg 2x" alt="Фото от Бориса" width="280" height="180">
@@ -188,6 +201,9 @@
               <figure class="photo-list">
                 <a class="photo-list__link" href="">
                   <picture class="photo-list__picture">
+                    <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-fair-desktop@1x.webp, img/photo-fair-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 660px)" srcset="img/photo-fair-tablet@1x.webp, img/photo-fair-tablet@2x.webp 2x">
+                    <source type="image/webp" srcset="img/photo-fair-mobile@1x.webp, img/photo-window-mobile@2x.webp 2x">
                     <source media="(min-width: 960px)" srcset="img/photo-fair-desktop@1x.jpg, img/photo-fair-desktop@2x.jpg 2x">
                     <source media="(min-width: 660px)" srcset="img/photo-fair-tablet@1x.jpg, img/photo-fair-tablet@2x.jpg 2x">
                     <img class="photo-list__img" src="img/photo-fair-mobile@1x.jpg" srcset="img/photo-fair-mobile@2x.jpg 2x" alt="Фото от Сергея" width="280" height="180">
@@ -206,6 +222,9 @@
               <figure class="photo-list">
                 <a class="photo-list__link" href="">
                   <picture class="photo-list__picture">
+                    <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-pov-desktop@1x.webp, img/photo-pov-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 660px)" srcset="img/photo-pov-tablet@1x.webp, img/photo-pov-tablet@2x.webp 2x">
+                    <source type="image/webp" srcset="img/photo-pov-mobile@1x.webp, img/photo-pov-mobile@2x.webp 2x">
                     <source media="(min-width: 960px)" srcset="img/photo-pov-desktop@1x.jpg, img/photo-pov-desktop@2x.jpg 2x">
                     <source media="(min-width: 660px)" srcset="img/photo-pov-tablet@1x.jpg, img/photo-pov-tablet@2x.jpg 2x">
                     <img class="photo-list__img" src="img/photo-pov-mobile@1x.jpg" srcset="img/photo-pov-mobile@2x.jpg 2x" alt="Фото от Максима" width="280" height="180">
@@ -224,6 +243,9 @@
               <figure class="photo-list">
                 <a class="photo-list__link" href="">
                   <picture class="photo-list__picture">
+                    <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-wing-desktop@1x.webp, img/photo-wing-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 660px)" srcset="img/photo-wing-tablet@1x.webp, img/photo-wing-tablet@2x.webp 2x">
+                    <source type="image/webp" srcset="img/photo-wing-mobile@1x.webp, img/photo-wing-mobile@2x.webp 2x">
                     <source media="(min-width: 960px)" srcset="img/photo-wing-desktop@1x.jpg, img/photo-wing-desktop@2x.jpg 2x">
                     <source media="(min-width: 660px)" srcset="img/photo-wing-tablet@1x.jpg, img/photo-wing-tablet@2x.jpg 2x">
                     <img class="photo-list__img" src="img/photo-wing-mobile@1x.jpg" srcset="img/photo-wing-mobile@2x.jpg 2x" alt="Фото от Надежды" width="280" height="180">
@@ -251,6 +273,9 @@
           <form class="upload__form" action="https://echo.htmlacademy.ru" method="GET">
             <div class="upload__picture-wrapper">
               <picture class="upload__picture">
+                <source type="image/webp" media="(min-width: 960px)" srcset="img/photo-road-desktop@1x.webp, img/photo-road-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 660px)" srcset="img/photo-road-tablet@1x.webp, img/photo-road-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/photo-road-mobile@1x.webp, img/photo-road-mobile@2x.webp 2x">
                 <source media="(min-width: 960px)" srcset="img/photo-road-desktop@1x.jpg, img/photo-road-desktop@2x.jpg 2x">
                 <source media="(min-width: 660px)" srcset="img/photo-road-tablet@1x.jpg, img/photo-road-tablet@2x.jpg 2x">
                 <img class="upload__img" src="img/photo-road-mobile@1x.jpg" srcset="img/photo-road-mobile@2x.jpg 2x" alt="Загруженное изображение" width="280" height="374">
@@ -300,7 +325,7 @@
     <footer class="page-footer">
       <div class="container">
         <div class="page-footer__wrapper">
-          <a class="page-footer__logo" href="" href="index.html" aria-label="Ссылка с логотипом на главную страницу">
+          <a class="page-footer__logo" href="index.html" aria-label="Ссылка с логотипом на главную страницу">
 
             <svg class="page-footer__img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146" height="40" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
               <g>
@@ -342,25 +367,23 @@
               </g>
             </svg>
           </a>
-          <div class="page-footer__social social">
-            <ul class="social__list">
-              <li class="social__item">
-                <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy_ru">
-                  <span class="visually-hidden">Мы в Вконтакте</span>
-                </a>
-              </li>
-              <li class="social__item">
-                <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
-                  <span class="visually-hidden">Мы в Фейсбуке</span>
-                </a>
-              </li>
-              <li class="social__item">
-                <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
-                  <span class="visually-hidden">Мы в YouTube</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ul class="page-footer__social social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy_ru">
+                <span class="visually-hidden">Мы в Вконтакте</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
+                <span class="visually-hidden">Мы в Фейсбуке</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+                <span class="visually-hidden">Мы в YouTube</span>
+              </a>
+            </li>
+          </ul>
           <div class="page-footer__copyright copyright">
             <b class="copyright__text">Разработано</b>
             <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">

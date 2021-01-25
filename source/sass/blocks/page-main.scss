@@ -10,7 +10,7 @@
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: $white;
+  background-color: $blue;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/bg-back-mobile@2x.jpg");
@@ -56,6 +56,7 @@
 
     padding-top: 22px;
     padding-bottom: 35px;
+    line-height: 29px;
   }
 
   &--form {
